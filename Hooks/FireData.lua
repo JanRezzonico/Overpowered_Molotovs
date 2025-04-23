@@ -1,10 +1,10 @@
-Hooks:PostHook(EnvEffectTweakData, "init", "Molotov Damage and Duration Overhaul", function(self)
+Hooks:PostHook(EnvEffectTweakData, "init", "Molotov Overhaul", function(self)
     function EnvEffectTweakData:molotov_fire()
         local params = {
             sound_event = "molotov_impact",
             range = 75,
             curve_pow = 3,
-            damage = 1,
+            damage = 5000,
             fire_alert_radius = 1500,
             alert_radius = 1500,
             sound_event_burning = "burn_loop_gen",
@@ -12,7 +12,7 @@ Hooks:PostHook(EnvEffectTweakData, "init", "Molotov Damage and Duration Overhaul
             player_damage = 2,
             sound_event_impact_duration = 4,
             burn_tick_period = 0.5,
-            burn_duration = 2000,
+            burn_duration = 10,
             effect_name = "effects/payday2/particles/explosions/molotov_grenade",
             fire_dot_data = {
                 dot_trigger_chance = 35,
