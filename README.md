@@ -9,3 +9,8 @@ This mod is meant to be used only in singleplayer or in a private lobby. Using t
 1. Download the latest version of the mod
 2. Extract the contents of the zip file into your `PAYDAY 2` mods folder.
 3. Launch the game and enjoy
+
+# Note
+After some time, the burning effect will stop, but the molotov will still deal damage.
+
+For this reason it is suggested to use the [Unambiguous Molotovs mod](https://modworkshop.net/mod/31396) to make the affected area visible.
