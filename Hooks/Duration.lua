@@ -1,0 +1,1 @@
+tweak_data.projectiles.molotov.burn_duration = 2000
